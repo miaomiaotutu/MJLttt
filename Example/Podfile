@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MJLttt_Example' do
+  pod 'MJLttt', :path => '../'
+
+  target 'MJLttt_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
