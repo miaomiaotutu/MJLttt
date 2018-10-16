@@ -1,0 +1,6 @@
+framework module MJLttt {
+  umbrella header "MJLttt-umbrella.h"
+
+  export *
+  module * { export * }
+}

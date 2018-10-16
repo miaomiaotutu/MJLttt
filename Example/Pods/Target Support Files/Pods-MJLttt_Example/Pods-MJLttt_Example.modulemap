@@ -1,0 +1,6 @@
+framework module Pods_MJLttt_Example {
+  umbrella header "Pods-MJLttt_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
