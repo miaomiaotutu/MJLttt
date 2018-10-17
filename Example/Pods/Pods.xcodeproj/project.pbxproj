@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		14422C22F30B15CEC01EE2BCB2FAC077 /* Pods-MJLttt_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20202D7066F3C3CD94535F0F6A276E74 /* Pods-MJLttt_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A611A7C217701EC00C688A4 /* MJLCustomeProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A611A7A217701EB00C688A4 /* MJLCustomeProgress.h */; };
+		1A611A7D217701EC00C688A4 /* MJLCustomeProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A611A7B217701EB00C688A4 /* MJLCustomeProgress.m */; };
 		262EB329E14F4C985E5CDE4E6EFDE853 /* Pods-MJLttt_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BA077EADA0693B01122713B0D927F9 /* Pods-MJLttt_Tests-dummy.m */; };
 		3948DD0E056333DF4C4C53A8342C8C42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		5D99335E6C84BB6C8F80BBC05B567F99 /* Pods-MJLttt_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 729D5FD86244641C63F0BD932599B76F /* Pods-MJLttt_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5E3444A8DDC98EF299632FBC3FA43F6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		968B3829108F1FA6B85DDEBCB69554BA /* MJLttt-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A8A58F9EFE598F88CF6FEDDAA155E9F /* MJLttt-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C32E0CC3EC5C48DC4CC42D25F76508DE /* Pods-MJLttt_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE19BA43EA4CC9D0B6BFEE56D52B680D /* Pods-MJLttt_Example-dummy.m */; };
-		CFBFDD51BD14A1C325262B9E87A4D96E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B2BA40FDE86B149D0D129951E3705E /* ReplaceMe.m */; };
 		E07BA9FB54118A3DF5526872E8087858 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		F33D6A2A5F2FE5079FF0259B3B793A21 /* MJLttt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB30DF43C2BA4769872D1619C7854FA /* MJLttt-dummy.m */; };
 /* End PBXBuildFile section */
@@ -38,15 +39,17 @@
 
 /* Begin PBXFileReference section */
 		0C2F18E06BC163E8CF53882AA3B25646 /* MJLttt.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJLttt.xcconfig; sourceTree = "<group>"; };
-		1E03954884E3AB6AAE910D732F16B4A7 /* Pods_MJLttt_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MJLttt_Tests.framework; path = "Pods-MJLttt_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A611A7A217701EB00C688A4 /* MJLCustomeProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJLCustomeProgress.h; path = MJLttt/Classes/MJLCustomeProgress.h; sourceTree = "<group>"; };
+		1A611A7B217701EB00C688A4 /* MJLCustomeProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MJLCustomeProgress.m; path = MJLttt/Classes/MJLCustomeProgress.m; sourceTree = "<group>"; };
+		1E03954884E3AB6AAE910D732F16B4A7 /* Pods_MJLttt_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MJLttt_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E4263CF3171DD1CC8279B775EA9DC4A /* Pods-MJLttt_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MJLttt_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1FBD4335807A9CB6C0B695E38A44A620 /* Pods_MJLttt_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MJLttt_Example.framework; path = "Pods-MJLttt_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FBD4335807A9CB6C0B695E38A44A620 /* Pods_MJLttt_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MJLttt_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		20202D7066F3C3CD94535F0F6A276E74 /* Pods-MJLttt_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MJLttt_Example-umbrella.h"; sourceTree = "<group>"; };
 		20472B5D259863F29C74B0E4377D2D62 /* Pods-MJLttt_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MJLttt_Example.release.xcconfig"; sourceTree = "<group>"; };
 		215B5D7F9DF2ADBE8ED22939ED16DDD7 /* Pods-MJLttt_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MJLttt_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		237C60C8FA078D3CD3D9D66FEEC11C9D /* MJLttt.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MJLttt.modulemap; sourceTree = "<group>"; };
 		24A601E7BE1BF957CDC57D0B7416C0FF /* Pods-MJLttt_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MJLttt_Example-resources.sh"; sourceTree = "<group>"; };
-		25DCE716724F5FA9C1E997AF0CF678A4 /* MJLttt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJLttt.framework; path = MJLttt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25DCE716724F5FA9C1E997AF0CF678A4 /* MJLttt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJLttt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		344D4C8D35FC5D8BACB1AEDD06B7D1CC /* Pods-MJLttt_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MJLttt_Example.modulemap"; sourceTree = "<group>"; };
 		347C96C77EAA8EF805A2A0AF20A44C3B /* Pods-MJLttt_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MJLttt_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		49BA077EADA0693B01122713B0D927F9 /* Pods-MJLttt_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MJLttt_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -56,13 +59,12 @@
 		6A8A58F9EFE598F88CF6FEDDAA155E9F /* MJLttt-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJLttt-umbrella.h"; sourceTree = "<group>"; };
 		6CB30DF43C2BA4769872D1619C7854FA /* MJLttt-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJLttt-dummy.m"; sourceTree = "<group>"; };
 		729D5FD86244641C63F0BD932599B76F /* Pods-MJLttt_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MJLttt_Tests-umbrella.h"; sourceTree = "<group>"; };
-		75B2BA40FDE86B149D0D129951E3705E /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = MJLttt/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		76B958C192DF1E64C1AD8976C088777F /* Pods-MJLttt_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MJLttt_Example-frameworks.sh"; sourceTree = "<group>"; };
-		77A37676B6F9089B012A8EA70B40DDE6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		78F53DACD6B1A9E1E866D0B290633573 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		77A37676B6F9089B012A8EA70B40DDE6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		78F53DACD6B1A9E1E866D0B290633573 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8E6D988F5EFEBDCDA0D4CDE900A22589 /* Pods-MJLttt_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MJLttt_Tests-resources.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A4313C1C5A18229DB5C3288BE5301AC9 /* MJLttt.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MJLttt.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4313C1C5A18229DB5C3288BE5301AC9 /* MJLttt.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = MJLttt.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A5F55FFCC9C678BFCDAEB36DD1E8548F /* MJLttt-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJLttt-prefix.pch"; sourceTree = "<group>"; };
 		B4FC0BA1F412787AA4B0FADFD666F762 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B89A069AC50EB307F6F0DE11C657236C /* Pods-MJLttt_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MJLttt_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -191,7 +193,8 @@
 		A158F792BAF0CEEA55F108325E18BB01 /* MJLttt */ = {
 			isa = PBXGroup;
 			children = (
-				75B2BA40FDE86B149D0D129951E3705E /* ReplaceMe.m */,
+				1A611A7A217701EB00C688A4 /* MJLCustomeProgress.h */,
+				1A611A7B217701EB00C688A4 /* MJLCustomeProgress.m */,
 				B54051AFA2E4AC84445B02F9ECB16E46 /* Pod */,
 				3254A4D3912D2ED16A7578F7976AD9D5 /* Support Files */,
 			);
@@ -234,6 +237,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A611A7C217701EC00C688A4 /* MJLCustomeProgress.h in Headers */,
 				968B3829108F1FA6B85DDEBCB69554BA /* MJLttt-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,8 +355,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A611A7D217701EC00C688A4 /* MJLCustomeProgress.m in Sources */,
 				F33D6A2A5F2FE5079FF0259B3B793A21 /* MJLttt-dummy.m in Sources */,
-				CFBFDD51BD14A1C325262B9E87A4D96E /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

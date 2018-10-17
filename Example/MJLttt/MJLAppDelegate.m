@@ -7,7 +7,6 @@
 //
 
 #import "MJLAppDelegate.h"
-
 @implementation MJLAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
