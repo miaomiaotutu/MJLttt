@@ -1,22 +1,19 @@
 {
   "name": "MJLttt",
-  "version": "0.1.0",
-  "summary": "A short description of MJLttt.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/568846806@qq.com/MJLttt",
-  "license": {
-    "type": "MIT",
-    "file": "LICENSE"
-  },
+  "version": "2.0.0",
+  "summary": "miaojinliang cocoapods.",
+  "description": "ceshi缪金梁",
+  "homepage": "https://github.com/miaomiaotutu/MJLttt",
+  "license": "MIT",
   "authors": {
-    "568846806@qq.com": "568846806@qq.com"
-  },
-  "source": {
-    "git": "https://github.com/568846806@qq.com/MJLttt.git",
-    "tag": "0.1.0"
+    "miaomiaotutu": "568846806@qq.com"
   },
   "platforms": {
     "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/miaomiaotutu/MJLttt.git",
+    "tag": "2.0.0"
   },
   "source_files": "MJLttt/Classes/**/*"
 }

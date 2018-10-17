@@ -1,5 +1,5 @@
 PODS:
-  - MJLttt (0.1.0)
+  - MJLttt (2.0.0)
 
 DEPENDENCIES:
   - MJLttt (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MJLttt: 13c316dd823d42a7890d5ab7ee64785ee4c58da6
+  MJLttt: be54272289e7e4cd1a35776ef4fbde6d6b013238
 
 PODFILE CHECKSUM: e36207c6e3f07f7057fa185fb6875f886744421c
 

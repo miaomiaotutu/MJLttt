@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "MJLCustomeProgress.h"
 
 FOUNDATION_EXPORT double MJLtttVersionNumber;
 FOUNDATION_EXPORT const unsigned char MJLtttVersionString[];
